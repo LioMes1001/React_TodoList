@@ -1,3 +1,17 @@
-button{
+.add-button{
+    height: 60px;
+    width: 60px;
     border-radius: 50%;
+    background: #ABCDFF;
+    font-size: 35px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    position: fixed;
+    right: 20px;
+    bottom: 25px;
+    z-index: 1000;
+    cursor: pointer;
 }
